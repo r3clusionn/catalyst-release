@@ -9,6 +9,8 @@ app, and it lets you measure the result instead of guessing.
 **Closed source.** This repository hosts the installer and the auto-update feed. It contains no
 source code.
 
+![Dashboard](docs/images/dashboard.png)
+
 ## Features
 
 Catalyst is organised into the same groups as its sidebar.
@@ -26,13 +28,19 @@ Catalyst is organised into the same groups as its sidebar.
 
 ### Tweaks
 
+![General tweaks](docs/images/tweaks.png)
+
 | Tab | What it does |
 |---|---|
-| General | About 190 individual tweaks across performance, privacy, input, gaming, Windows Update, security, NVIDIA and AMD drivers, MMCSS, network, storage and audio. Each one shows what it changes, what it costs, and whether it is already applied. |
+| General | 97 system tweaks in 12 groups: telemetry, ads and suggestions, activity and app access, Windows Update, driver installation, power and CPU, memory and startup, background work, desktop and shell, gaming, security and isolation, and NVIDIA GPU. Each group can be applied as a whole or opened tweak by tweak, and every tweak shows what it changes, what it costs and whether it is already applied. Network, audio, storage and input tweaks have their own tabs. |
 | BIOS | Opens an AMI Aptio V firmware image and edits its setup menus: unhide settings the vendor hides, change defaults, and retarget menu entries. Produces a modified image for you to flash. |
 | Ram Viewer | Reads live memory timings, voltages and SPD data straight from the memory controller. Supports live timing edits on Intel 12th to 14th gen. |
 
+![Ram Viewer](docs/images/ram-viewer.png)
+
 ### Affinities
+
+![Device Tweaker](docs/images/device-tweaker.png)
 
 | Tab | What it does |
 |---|---|
@@ -42,6 +50,8 @@ Catalyst is organised into the same groups as its sidebar.
 | Interrupt Affinity | Moves device interrupts (GPU, USB, network) to chosen cores, with MSI mode and interrupt priority. |
 
 ### Debloating
+
+![Services](docs/images/services.png)
 
 | Tab | What it does |
 |---|---|
@@ -66,6 +76,8 @@ Catalyst is organised into the same groups as its sidebar.
 
 ### Hardware
 
+![Power Plans](docs/images/power-plans.png)
+
 | Tab | What it does |
 |---|---|
 | Device Manager | Finds and disables devices you do not use, with real device icons and status. |
@@ -87,6 +99,8 @@ Catalyst is organised into the same groups as its sidebar.
 ### Benchmarking
 
 Catalyst measures the effect of every change with its own tools.
+
+![Vulkan Benchmark](docs/images/vulkan-benchmark.png)
 
 | Tab | What it does |
 |---|---|
@@ -127,6 +141,8 @@ auto-update.
 
 ### The quick way
 
+![Optimizer](docs/images/optimizer.png)
+
 1. Open **Backup & Restore** and create a restore point.
 2. Open **Optimizer** and press Scan. Catalyst checks your machine and shows only the changes
    that apply to it.
@@ -142,6 +158,8 @@ auto-update.
    improved on your machine.
 
 ### Undoing changes
+
+![Backup & Restore](docs/images/backup-restore.png)
 
 - **Single tweak:** turn it off and apply.
 - **Everything:** open Backup & Restore and restore a point. Registry changes are reverted in
@@ -165,13 +183,6 @@ confirmation, but you should know what they do:
 
 Results depend on your hardware. Benchmark your own system before and after rather than
 assuming a tweak helps.
-
-## Privacy
-
-Signing in uses Discord. Catalyst stores your Discord ID and username, a hardware ID for this PC,
-the Catalyst version, your last launch time and the IP address it was launched from. This is used
-for account access and to block abuse. Catalyst does not upload your files, settings or benchmark
-results.
 
 ## Support
 
